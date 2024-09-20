@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  #map-container {
+    height: 400px; /* Adjust height as needed */
+    width: 100%;
+  }
+  
+  #error-message {
+    color: red;
+    font-weight: bold;
+    padding: 10px;
+  }
+  

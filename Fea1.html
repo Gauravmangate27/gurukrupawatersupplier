@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gurukrupa Water Supplier</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            background: #333;
+            justify-content: flex-start;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .header {
+            width: 100%;
+            background: #8ab9ff;
+            padding: 20px 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .ws_head {
+            border: #007bff solid 2px;
+            border-radius: 2rem;
+            background-color: #dad9d5;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .main {
+            width: 80%;
+            background: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .main section {
+            margin-bottom: 20px;
+        }
+
+        .main h2 {
+            margin-bottom: 10px;
+        }
+
+        .main p {
+            margin-bottom: 10px;
+        }
+
+        hr {
+            width: 100%;
+            border: none;
+            height: 2px;
+            background-color: black;
+        }
+
+        .footer {
+            position: relative;
+            width: 100%;
+            background: #3586ff;
+            min-height: 100px;
+            padding: 20px 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .social-icon,
+        .menu {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 10px 0;
+            flex-wrap: wrap;
+        }
+
+        .social-icon__item,
+        .menu__item {
+            list-style: none;
+        }
+
+        .social-icon__link {
+            font-size: 2rem;
+            color: #fff;
+            margin: 0 10px;
+            display: inline-block;
+            transition: 0.5s;
+        }
+
+        .social-icon__link:hover {
+            transform: translateY(-10px);
+        }
+
+        .menu__link {
+            font-size: 1.2rem;
+            color: #fff;
+            margin: 0 10px;
+            display: inline-block;
+            transition: 0.5s;
+            text-decoration: none;
+            opacity: 0.75;
+            font-weight: 300;
+        }
+
+        .menu__link:hover {
+            opacity: 1;
+        }
+
+        .footer p {
+            color: #fff;
+            margin: 15px 0 10px 0;
+            font-size: 1rem;
+            font-weight: 300;
+        }
+
+        .wave {
+            position: absolute;
+            top: -100px;
+            left: 0;
+            width: 100%;
+            height: 100px;
+            background: url("https://i.ibb.co/wQZVxxk/wave.png");
+            background-size: 1000px 100px;
+        }
+
+        .wave#wave1 {
+            z-index: 1000;
+            opacity: 1;
+            bottom: 0;
+            animation: animateWaves 4s linear infinite;
+        }
+
+        .wave#wave2 {
+            z-index: 999;
+            opacity: 0.5;
+            bottom: 10px;
+            animation: animate 4s linear infinite !important;
+        }
+
+        .wave#wave3 {
+            z-index: 1000;
+            opacity: 0.2;
+            bottom: 15px;
+            animation: animateWaves 3s linear infinite;
+        }
+
+        .wave#wave4 {
+            z-index: 999;
+            opacity: 0.7;
+            bottom: 20px;
+            animation: animate 3s linear infinite;
+        }
+
+        @keyframes animateWaves {
+            0% {
+                background-position-x: 1000px;
+            }
+            100% {
+                background-position-x: 0px;
+            }
+        }
+
+        @keyframes animate {
+            0% {
+                background-position-x: -1000px;
+            }
+            100% {
+                background-position-x: 0px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="ws_head">
+            <h1>Gurukrupa Water Supplier Features Section</h1>
+        </div>
+    </header>
+    <hr>
+    <main class="main">
+        <section id="about">
+            <h2>Service & Features</h2>
+            <p>
+                Gurukrupa Water Supplier is a trusted provider of high-quality drinking water in Aurangabad. We are committed to delivering safe, clean, and refreshing water to our customers.  
+            </p>
+        </section>
+        <section id="services">
+            <h2>Our Features</h2>
+            <ol>
+                <li>Home and office water delivery</li>
+                <li>Water dispenser rentals</li>
+                <li>Water testing services</li>
+                <li>24/7 customer support</li>
+            </ol>
+            <h2>Tips for Choosing a Water Jar Provider:</h2>
+            <p>
+                <b>1. Water Quality:</b> Ask about their water source, purification process, and any certifications they hold.<br><br>
+                <b>2. Delivery Rates and Schedule:</b> Inquire about delivery fees, minimum order requirements, and delivery frequency options.<br><br>
+                <b>3. Jar Deposit or Rental:</b> See if there's a deposit for the jars or if it's a rental system.<br><br>
+                <b>4. Customer Reviews:</b> Read online reviews to get insights from other customers.<br><br>
+                I hope this information helps!
+            </p>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>
+                <a href="tel:+919823219790">Call us: +91 9823219790</a><br>
+                <a href="mailto:gurukrupawater@gmail.com">Email us: gurukrupawater@gmail.com</a>
+            </p>
+            <p>We are located in Aurangabad Division, Maharashtra, India.</p>
+            <!-- <h2>Make Your Order <a href="contact.php">Make Order And Payment</a></h2> -->
+        </section>
+    </main>
+    <hr>
+    <footer class="footer">
+        <div class="waves">
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+            <div class="wave" id="wave4"></div>
+        </div>
+        <ul class="social-icon">
+            <li class="social-icon__item"><a class="social-icon__link" href="https://www.facebook.com">
+                <ion-icon name="logo-facebook"></ion-icon>
+            </a></li>
+            <li class="social-icon__item"><a class="social-icon__link" href="https://x.com/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a></li>
+            <li class="social-icon__item"><a class="social-icon__link" href="https://www.linkedin.com/in/sahil-wankhede-28888725b/">
+                <ion-icon name="logo-linkedin"></ion-icon>
+            </a></li>
+            <li class="social-icon__item"><a class="social-icon__link" href="https://www.instagram.com/m_r_.sahil_.25/">
+                <ion-icon name="logo-instagram"></ion-icon>
+            </a></li>
+        </ul>
+        <ul class="menu">
+            <li class="menu__item"><a class="menu__link" href="home.php">Home</a></li>
+            <li class="menu__item"><a class="menu__link" href="About1.html">About</a></li>
+            <li class="menu__item"><a class="menu__link" href="service1.html">Services</a></li>
+            <li class="menu__item"><a class="menu__link" href="Fea1.html">Features</a></li>
+            <li class="menu__item"><a class="menu__link" href="contact.php">Contact</a></li>
+        </ul>
+        <p>&copy; 2024 Gurukrupa Water Supplier, Inc. All Rights Reserved</p>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

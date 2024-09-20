@@ -1,0 +1,1 @@
+console.log("Gurukrupa Water Supplier is ready to serve you!");
